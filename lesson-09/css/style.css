@@ -2,16 +2,47 @@ h1 {
     text-align: center;
 }
 
-.red {
-    border: 10px solid firebrick;
+.dotted {
+    border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+    border-color: crimson hotpink gold lime;
 }
-.pink {
-    border: 10px dashed rgb(255, 105, 180);
+.dashed {
+    border-style: dashed;
+    border-width: thick;
 }
-.yellow {
-    border: 10px double #ffd700;
+.solid {
+    border: 10px solid red;
+    border-width: 5px;
+    border-radius: 20px;
 }
-
-.blue {
-    border: 10px dotted hsl(174, 72%, 56%);
+.redondeado {
+    border: 10px solid blueviolet;
+    border-radius: 20px 0 10px 0;
+}
+.double {
+    border: double blueviolet;
+    border-width: 10px 5px;
+}
+.groove {
+    border: 10px groove;
+}
+.ridge {
+    border: 10px ridge;
+}
+.inset {
+    border: 10px inset;
+}
+.outset {
+    border: 10px outset;
+}
+.none {
+    border: none;
+}
+.hidden {
+    border: hidden;
+}
+.mix {
+    border: 10px solid red;
+    border-style: dotted dashed solid double;
 }
