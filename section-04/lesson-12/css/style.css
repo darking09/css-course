@@ -1,0 +1,14 @@
+body {
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/lesson-12/images/fondo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    /*background-size: cover;*/
+}
+
+h1 {
+    text-align: center;
+    background-color: dodgerblue;
+}
