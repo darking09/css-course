@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+div {
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+
+.blue-icon {
+    font-size: 2.5em; 
+    color: cornflowerblue;
+    vertical-align: middle;
+}
+
+.red-icon {
+    font-size: 3em; 
+    color: crimson;
+    vertical-align: bottom;
+}
