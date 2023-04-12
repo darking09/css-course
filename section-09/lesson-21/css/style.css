@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+.container {
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+}
+
+.float {
+    float: left;
+}
+
+.container-one {
+    border: 3px dashed greenyellow;
+}
+
+.container-two {
+    float: right;
+    border: 3px dashed cornflowerblue;
+}
+
+.container-three {
+    clear: both;
+    margin: auto;
+    border: 3px dashed darkorange;
+}
